@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook</title>
+</head>
+<body>
+    <h2>Add Contact</h2>
+    <form method="post" action="process.php">
+        Name: <input type="text" name="name" required><br>
+        Phone: <input type="tel" name="phone" required><br>
+        <input type="submit" value="Add Contact">
+    </form>
+
+    <h2>Available Contacts</h2>
+    <?php include 'display-contacts.php'; ?>
+</body>
+</html>
