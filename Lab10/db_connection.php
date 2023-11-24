@@ -1,8 +1,8 @@
 <?php
-$hostname = 'db.cs.dal.ca'; // Replace with the actual hostname
-$username = 'alen';    // Replace with your CSID
-$password = 'Se4wFYZ7AKaa6eiQHGGHJoZD4'; // Replace with your DB password
-$database = 'alen';    // Replace with your CSID
+$hostname = ''; // Replace with the actual hostname
+$username = '';    // Replace with your CSID
+$password = ''; // Replace with your DB password
+$database = '';    // Replace with your CSID
 
 try {
     $conn = new PDO("mysql:host=$hostname;dbname=$database", $username, $password);
