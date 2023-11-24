@@ -1,8 +1,8 @@
 <?php
-$host = 'db.cs.dal.ca'; // Replace with your database host
-$username = 'alen'; // Replace with your database username
+$host = ''; // Replace with your database host
+$username = ''; // Replace with your database username
 $password = ''; // Replace with your database password
-$database = 'alen';
+$database = '';
 
 $conn = mysqli_connect($host, $username, $password, $database);
 if(mysqli_connect_errno()){
